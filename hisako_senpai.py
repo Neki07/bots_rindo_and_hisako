@@ -38,6 +38,9 @@ def start_command(update, context):
 def help_command(update, context):
     update.message.reply_text("You can ask Neki")
 
+def guide_command(update, context):
+    update.message.reply_text("https://docs.google.com/document/d/1Aq0JPmzL_krqtLoWfN8K6a_t-f4ecjtkEc6orMGX_A4/edit?usp=sharing")
+
 def handle_message(update, context):
     text = str(update.message.text).lower()
     response = R.sample_responses(text)
@@ -53,6 +56,7 @@ def main():
 
     dp.add_handler(CommandHandler("start", start_command))
     dp.add_handler(CommandHandler("help", help_command))
+    dp.add_handler(CommandHandler("guide", guide_command))
 
     dp.add_handler(MessageHandler(Filters.text, handle_message))
     dp.add_error_handler(error)
