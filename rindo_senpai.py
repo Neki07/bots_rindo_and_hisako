@@ -54,6 +54,12 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+######## for introduction
+    if message.content.startswith('$hello') or message.content.startswith("$Hello"):
+        await message.channel.send("Hey How's it going?.If you want to know how to ask questions, please ask how to ask questions for duties?")
+    if message.content.startswith('$who are you') or message.content.startswith("$Who are you"):
+        await message.channel.send("I am Rindo.")
+
 ########  for admit duty(AD)
 
     if message.content.startswith('$whatAD') or message.content.startswith("$What is admit duty?"):
