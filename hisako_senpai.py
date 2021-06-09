@@ -33,7 +33,7 @@ for row in reader:
 print("Hisako is started")
 
 def start_command(update, context):
-    update.message.reply_texte("Type something random to get started!")
+    update.message.reply_text("Type something random to get started!")
 
 def help_command(update, context):
     update.message.reply_text("You can ask Neki")
