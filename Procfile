@@ -1,1 +1,1 @@
-wed hisako_senpai.py
+wed: hisako_senpai.py
