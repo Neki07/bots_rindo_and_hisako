@@ -44,7 +44,7 @@ def sample_responses(input_text):
         date_time = now.strftime("%d/%m/%y,%H:%M:%S")
         return str(date_time)
     if user_message in ("/how to ask commands?" , "/guide"):
-        return (https://docs.google.com/document/d/1Aq0JPmzL_krqtLoWfN8K6a_t-f4ecjtkEc6orMGX_A4/edit?usp=sharing)
+        return ("https://docs.google.com/document/d/1Aq0JPmzL_krqtLoWfN8K6a_t-f4ecjtkEc6orMGX_A4/edit?usp=sharing")
 
 
 ########  for admit duty(ad)
