@@ -1,1 +1,1 @@
-wed: hisako_senpai.py
+worker: python hisako_senpai.py
